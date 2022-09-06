@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
 
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
 
 body {
     font-family: Roboto;
@@ -15,7 +19,6 @@ ul {
     list-style-type: none;
     display: flex;
     font-size: 18px;
-    color: #e5e7eb;
     gap: 16px;
     align-items: center;
 }
@@ -27,9 +30,97 @@ header {
     justify-content: space-around;
 }
 
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8 ;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin: 42px;
+}
+
+p {
+    font-size: 18px;
+    color: #E5e7eb;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+
+
+button {
+    border-style: none;
+    border-radius: 10px;
+    width: 120px;
+    padding: 12px;
+    background-color: #3882f6;
+    color: #f9faf8 ;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
     align-items: center;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    padding-bottom: 100px;
+    gap: 64px;
+}
+
+.hero-content {
+    width: 450px;
+}
+
+.placeholder {
+    background-color: grey;
+    color: grey;
+    width: 500px;
+    height: 300px;
+}
+
+.info-container {
+    margin-top: 42px;
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.card {
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #1f2937;
 }
